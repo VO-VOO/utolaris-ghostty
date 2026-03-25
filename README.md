@@ -24,13 +24,13 @@
 
 ## 加载的插件和集成
 
-- Starship prompt
-- zsh-syntax-highlighting
-- zsh-autosuggestions
-- 通过 `fpath` 和 `compinit` 加载的 zsh-completions
-- `fzf` shell 集成
-- `zoxide`
-- `fnm`
+- Starship prompt（美化提示符，并显示路径、分支和状态信息）
+- zsh-syntax-highlighting（输入时高亮命令，减少拼写错误）
+- zsh-autosuggestions（根据历史命令自动补全建议）
+- zsh-completions（补充更多命令补全能力，配合 `fpath` 和 `compinit` 使用）
+- `fzf` shell 集成（模糊搜索历史命令和文件路径）
+- `zoxide`（更快跳转常用目录）
+- `fnm`（管理 Node.js 版本并按目录自动切换）
 
 ## 优势
 
