@@ -11,7 +11,7 @@
 
 ## 使用教程
 
-1. 前提条件：你的系统需要是 macOS，并且已经安装 Homebrew。
+1. 前提条件：你的系统需要是 macOS，已经安装 Homebrew，并且终端默认 shell 是 Zsh 而不是 Bash。
 2. 从 Ghostty 官网下载安装包：<https://ghostty.org/download>
 3. 将这个项目链接发给 Codex 或 Claude Code，让它帮你把配置落到本机环境里。
 4. 按照仓库里的 `.zshrc` 和 `ghostty/config` 进行同步，必要时先备份你自己的原配置。
