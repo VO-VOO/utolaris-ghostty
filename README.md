@@ -1,16 +1,35 @@
 # utolaris-ghostty
 
-这个仓库包含两份配置快照：
+## 桌面效果
 
-- `.zshrc`：Zsh 的 shell 配置，包含 prompt、插件、别名和常用工具默认设置。原始文件中的敏感 `env` 段已刻意排除。
-- `.zshrc` 中声明的 Zsh 相关插件和集成包括：
-  - Starship prompt
-  - zsh-syntax-highlighting
-  - zsh-autosuggestions
-  - 通过 `fpath` 和 `compinit` 加载的 zsh-completions
-  - `fzf` shell 集成
-  - `zoxide`
-  - `fnm`
-- `ghostty/config`：Ghostty 终端配置，主要包括外观、字体、输入行为和默认终端设置。
+![桌面截图](./assets/desktop-screenshot.png)
+
+## 配置内容
+
+- `.zshrc`：Zsh 的 shell 配置，包含 prompt、插件、别名和常用工具默认设置。原始文件中的敏感 `env` 段已排除。
+- `ghostty/config`：Ghostty 终端配置，主要包括字体、主题、透明度、窗口行为和输入体验。
+
+## 视觉效果
+
+- 整体是偏克制的深色终端风格，背景半透明、边缘柔和，桌面感比较强。
+- Starship prompt 会把路径、分支和状态信息压缩成更易扫读的提示行。
+- 语法高亮和自动补全会让输入过程更清楚，终端看起来也更整洁。
+
+## 加载的插件和集成
+
+- Starship prompt
+- zsh-syntax-highlighting
+- zsh-autosuggestions
+- 通过 `fpath` 和 `compinit` 加载的 zsh-completions
+- `fzf` shell 集成
+- `zoxide`
+- `fnm`
+
+## 优势
+
+- 更快定位当前路径、Git 分支和命令状态。
+- 更少的手动输入，常用路径和历史命令更容易复用。
+- 终端显示更统一，适合长时间使用。
+- 既保留效率，也保留一定的视觉层次感。
 
 这个快照不包含密钥或私钥。
