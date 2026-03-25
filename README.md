@@ -9,6 +9,13 @@
 - `.zshrc`：Zsh 的 shell 配置，包含 prompt、插件、别名和常用工具默认设置。原始文件中的敏感 `env` 段已排除。
 - `ghostty/config`：Ghostty 终端配置，主要包括字体、主题、透明度、窗口行为和输入体验。
 
+## 使用教程
+
+1. 前提条件：你的系统需要是 macOS，并且已经安装 Homebrew。
+2. 从 Ghostty 官网下载安装包：<https://ghostty.org/download>
+3. 将这个项目链接发给 Codex 或 Claude Code，让它帮你把配置落到本机环境里。
+4. 按照仓库里的 `.zshrc` 和 `ghostty/config` 进行同步，必要时先备份你自己的原配置。
+
 ## 视觉效果
 
 - 整体是偏克制的深色终端风格，背景半透明、边缘柔和，桌面感比较强。
