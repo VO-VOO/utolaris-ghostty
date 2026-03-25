@@ -1,16 +1,16 @@
 # utolaris-ghostty
 
-This repo contains two configuration snapshots:
+这个仓库包含两份配置快照：
 
-- `.zshrc`: shell setup for Zsh, including prompt, plugins, aliases, and tooling defaults. The sensitive `env` section from the original file is intentionally excluded.
-- The Zsh-related plugins and integrations declared in `.zshrc` include:
+- `.zshrc`：Zsh 的 shell 配置，包含 prompt、插件、别名和常用工具默认设置。原始文件中的敏感 `env` 段已刻意排除。
+- `.zshrc` 中声明的 Zsh 相关插件和集成包括：
   - Starship prompt
   - zsh-syntax-highlighting
   - zsh-autosuggestions
-  - zsh-completions via `fpath` and `compinit`
-  - `fzf` shell integration
+  - 通过 `fpath` 和 `compinit` 加载的 zsh-completions
+  - `fzf` shell 集成
   - `zoxide`
   - `fnm`
-- `ghostty/config`: Ghostty terminal configuration, covering appearance, typography, input behavior, and terminal defaults.
+- `ghostty/config`：Ghostty 终端配置，主要包括外观、字体、输入行为和默认终端设置。
 
-No secrets or private keys are included in this snapshot.
+这个快照不包含密钥或私钥。
