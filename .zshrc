@@ -25,7 +25,13 @@ fi
 if [[ -d /opt/homebrew/share/zsh-completions ]]; then
     fpath=(/opt/homebrew/share/zsh-completions $fpath)
 fi
-autoload -Uz compinit && compinit
+autoload -Uz compinit
+# Prefer the cached completion dump for faster shell startup.
+if [[ -f ~/.zcompdump ]]; then
+    compinit -C
+else
+    compinit
+fi
 
 # ─── History ─────────────────────────────────────────────────────────
 HISTSIZE=50000
@@ -74,4 +80,3 @@ case ":$PATH:" in
     *":$PNPM_HOME:"*) ;;
     *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
-

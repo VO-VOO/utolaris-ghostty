@@ -1,4 +1,5 @@
 "$schema" = 'https://starship.rs/config-schema.json'
+command_timeout = 3000
 
 format = """
 [](red)\
@@ -88,6 +89,9 @@ format = '[[($all_status$ahead_behind )](fg:crust bg:yellow)]($style)'
 symbol = ""
 style = "bg:green"
 format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+detect_extensions = ["js", "mjs", "cjs", "ts", "mts", "cts"]
+detect_files = ["package.json", ".node-version", ".nvmrc", "bun.lock", "bun.lockb", "pnpm-lock.yaml", "package-lock.json"]
+detect_folders = []
 
 [c]
 symbol = " "
